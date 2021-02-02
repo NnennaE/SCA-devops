@@ -1,0 +1,122 @@
+HUB
+Network hub is a device that connects computer systems in a private network within a local
+area network meaning that the connection is without the internet. The hub distributes packet
+of data when it receives it by broadcasting the data to all the devices that are connection on the
+network. The network bandwidth is divided between all the connected computers.
+Switches
+This is a device that connects computers, printers and other hardware devices in a network.
+The switch works by determining where a packet destination when it receives a data. It allows
+devices on a network talk to each other within a network.
+Routers
+A router is a device that allows free follow of communication in a network. The router
+distributes an internet connection to multiple devices in a network and it also allows your
+network to communicate with other networks.
+OSI MODEL
+OSI (open systems Interconnection) is conceptual framework which illustrates the functions of a
+network system. The OSI model characterizes computing functions into a universal set of rules
+and conditions in order to support the operations between the products and software. The OSI
+Model is split into seven different layers: Physical, Data Link, Network, Transports, Session,
+Presentation, and Application.
+The 7 Layers of the OSI Model
+Physical Layer: this is the lowest layer of the OSI Model that is concerned with optical transition
+of raw unstructured data bits across the network from the physical layer of the receiving
+device.
+Data Link Layer: at this layer devices which have connection nodes are used to carry out node
+to node data transfer where data is packaged into frames. The data link layer is where errors
+from physical layer are corrected.
+This data link layer carry out it work in to stages. The first stage is where the MAC (media access
+control) provides flow control and multiplexing for device transmissions over a network. While,
+the second stage is provides flow and error control over the physical layer and also indentifies
+line protocol through the logical link control (LLC). 
+Network Layer: the network layer delivers the frames received from the data link layer to its
+proposed destination using the assigned addresses on the frame. Network layer identifies the
+destination of the frames by using logical addresses such as the IP (internet protocol). The
+router plays a very important role at the network layer because it distributes information to its
+destination between networks.
+Transport Layer: this layer manages the delivery and error checking of data packets. The
+transport layer regulates the size, sequencing and ultimately the transfer of data between
+computer systems and host.
+Session Layer: the session layer controls the communication between different computer
+systems. A connection between the systems is established, managed and terminated at session
+layer. It is at this layer that authentication and reconnections takes place.
+Presentation Layer: the presentation layer translates data for the application layer based on the
+syntax or semantics that that the application layer accepts. It also handles the encryption and
+decryption required by the application layer.
+Application Layer: at the application layer is where the end users and application layer interact
+directly with the software application. At application layer, the communication partners,
+resource availability and synchronizes communication is indentified.
+The application layer interacts with software application to initiate communication
+components.
+
+TCP/IP Model
+TCP/IP (Transmission Control Protocol / Internet Protocol) determines how a computer should
+be connected to the internet and how data should be transmitted between them. TCP/IP
+initiates how virtual network are connected together. TCP/IP Stack is specially designed as a
+model to provide super reliable and end-to-end byte stream over an unsecured internetwork.
+some of its characteristics of TCP/IP are:
+1. It supports a flexible TCP/IP architecture or structure.
+2. It makes addition of systems in a network easy.
+3. The network remains intact until the source and destination devices are working
+properly.
+4. TCP enables reliability and ensures that data which arrives of sequence should put back
+into order 
+5. This model grants implementation flow control by ensuring the sender never subdues a
+receiver with data.
+The TCP/IP has four layers: Application, Transportation, Internet and Network Interface. The
+application layer interacts with software application to implement communication
+components. This layer is OSI layer model closest to the end-user which means that it allows
+users to communicate with other software at this stage. After the application layer comet the
+transportation layer in TCP/IP model
+The transportation layer builds on the network layer in order data transport from a process
+from the source systems to the destination system. It determines the quantity of data sent and
+the rate at which the data is which it is sent.
+The Internet Protocol layer sends packets from any network, and any computer until it reaches
+its destination regardless of the route they take.
+The last layer is the Network Interface Layer of TCP/IP model. The main function of this layer is
+to define details of how data should be sent using the network. This layer is also called network
+access layer.
+HTTP
+Hypertext Transfer Protocol (HTTP) is an application layer protocol for transmitting hypermedia
+document, such as HTML file that allows users to communicate data to the World Wide Web. It
+communicates between web browsers and web servers. HTTP works as a request-response
+protocols, it gives users a way to communicates with web resources such as HTML files by
+transmitting hypertext messages between clients and servers. HTTP clients use Transmission
+Control Protocol (TCP) connections to communication with servers.
+TCP
+Transmission Control Protocol (TCP) is a network that allows two computer systems to
+communicate. TCP is a connection-oriented protocol; this mean that the communicating
+devices should establish a connection before transmitting data and close the connection after
+transmitting the data. It guarantees a reliable delivery of data to its destination router.
+UDP
+UDP (User Datagram protocol) is a communication protocol used across the internet for
+especially time sensitive transmission such as video playback or DNS lookups. It increases the
+communication speed by not formally establishing a connection before data is transferred. 
+UDP is the datagram oriented protocol. This is because there is no overhead for opening a
+connection, managing a connection, and terminating a connection. It is very efficient for
+broadcast and multicast type of network transmission. UDP has only basic error checking
+mechanism using checksums.
+Firewall
+Firewall is a network security device which guards incoming and outgoing traffic and decides
+whether to allow or stop specific traffic based on a defined set of security rules. It prevents
+security attack over a network.
+Firewall establish a barrier between secures and controlled internal networks that can be
+trusted and un-trusted outsides networks such as the internet.
+A firewall can be hardware or software or even both software and hardware.
+DNS
+Domain Name System is a server that translates URL (Uniform Resource Locator) or web
+addresses into their corresponding IP addresses. It’s a system that allows connection to
+websites my matching domain names with the unique ID or IP address.
+Latency
+Latency is the measure of delay for data to its destination over a network. In a network, latency
+measures the time it takes for a data to gets to its destination across the network. It calculates
+round trip delay that is the time for information to gets to its destination and back to its source.
+Latency is measured in milliseconds (ms).
+Caching is the process of storing data in a cache. In computing, a cache is a software or
+hardware device that stores data temporary for futures use, so that futures request for that
+data are served up faster than accessing the original storage of that data.
+Wireless Access Point
+Wireless access point (WAP) is a hardware device or configured node on a local area network
+(LAN) that enables wireless devices and wired networks to connect through a wireless standard
+like Wi-Fi or Bluetooth. Wireless access point feature radio transmitters and antennae, which
+makes connectivity between devices and the internet or a network easy.
+WAP is also known as a hotspot. 
